@@ -1,6 +1,6 @@
 # Aniworld Downloader
 
-Download Animes from Aniworld.to
+python Project for Downloading Animes from Aniworld.to
 
 ## Getting Started
 
