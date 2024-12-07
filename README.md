@@ -1,4 +1,4 @@
-# Aniworld Downloader
+# Aniworld Downloader(Windows)
 
 python Project for Downloading Animes from Aniworld.to
 
@@ -11,16 +11,17 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Selenium
-JDownloader2
-requests
+pip install selenium
+pip install requests
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+#Download JDownloader2
+go to the offical webside : https://jdownloader.org/
+and download JDownloader 2
 
 ```
 Give the example
