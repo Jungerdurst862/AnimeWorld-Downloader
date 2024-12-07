@@ -25,15 +25,24 @@ go to the offical webside : https://jdownloader.org/
 Create an Account
 and download JDownloader 2
 
-
-
-
 When JDownloader is installed go into settings
 --picture of settings
 login in with your created account from the website and press connect
 --picture where the connect button is
 you finsihed setting up JDownloader
-now we move on the scripts
+now we move on the the configuration
+
+go into the pulled repositiory and open the configuration file
+in there you can configuare everything about the project
+firsst insert your JDownload information
+--picture of how its should look like 
+
+After that configure Discord
+insert a Webhook 
+and add your autherization
+and channel id 
+
+Now you setted everything up and are ready to start downloading your favourite Animes
 
 
 End with an example of getting some data out of the system or using it for a little demo
