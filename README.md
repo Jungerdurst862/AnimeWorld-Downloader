@@ -20,7 +20,7 @@ pip install requests
 A step by guide to install everything to get the Project running
 
 
-go to the offical webside : https://jdownloader.org/
+go to the offical webside : [https://jdownloader.org/](https://jdownloader.org/jdownloader2)
 Create an Account
 and download JDownloader 2
 
