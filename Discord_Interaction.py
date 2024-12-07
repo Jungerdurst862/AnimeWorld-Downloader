@@ -1,25 +1,31 @@
 import requests
 import Libary
 import time
+import configuration
 
 #write your webhook url here
-Webhock = ""
-autherization = ""#your authorization for discord.com
+Webhock = configuration.Webhock
+autherization = configuration.autherization
 headers = {
     'authorization':autherization,
     'Content-Type': 'application/json'
     }
-Channel_id = ""#channel id where you want to send the message
+Channel_id = configuration.Channel_id
 
 yes_list = ["ja", "yes","jo","yur","yurr"]
 def Discord_Message(message):
-    response = requests.post(Webhock, json={"content": message})
+    if configuration.Use_Discord:
+        response = requests.post(Webhock, json={"content": message})
     
 def get_last_message(limit = 1):
+    if not configuration.Use_Discord:
+        return
     response = requests.get(f"https://discord.com/api/v8/channels/{Channel_id}/messages?limit={limit}",headers=headers)
     return response.json()
     
 def Create_Progress_Message(anime_name : str, finished : int, total : int):
+    if not configuration.Use_Discord:
+        return
     left = total - finished
     progress = (finished / total) * 100
     default_json = {
@@ -58,6 +64,8 @@ def Create_Progress_Message(anime_name : str, finished : int, total : int):
     return response[0]['id']
 
 def wait_for_yes(wait_time:int):
+    if not configuration.Use_Discord:
+        return
     repeat_count = 0
     while repeat_count < wait_time:
         last_message = get_last_message()
@@ -68,6 +76,8 @@ def wait_for_yes(wait_time:int):
         Libary.time.sleep(1)
 
 def Update_Progress_Message(message_id : int ,total : int , finsihed : int, anime_name : str):
+    if not configuration.Use_Discord:
+        return
     left = total - finsihed
     progress = (finsihed / total) * 100
     default_json = {
@@ -105,6 +115,8 @@ def Update_Progress_Message(message_id : int ,total : int , finsihed : int, anim
     
 
 def Start_wait(wait_time : int): 
+    if not configuration.Use_Discord:
+        return
     wait_for_yes(wait_time = wait_time)
     return True
 

@@ -1,6 +1,7 @@
 import Libary
 import GetPopular
 import JD
+import configuration
 import NewestAnimes
 import Discord_Interaction
 from selenium.webdriver.common.by import By
@@ -13,23 +14,24 @@ options = Libary.webdriver.ChromeOptions()
 options.add_argument("download.default_directory=D:\OnePiece")
 
 #Configuration
+DiscordUse = configuration.Use_Discord
+Set_Stop = configuration.Set_Stop
+Stop_episode = configuration.Stop_episode
+Stop_Season = configuration.Stop_Season
+Amount_of_new_Anime_Download_popular = configuration.Amount_of_new_Anime_Download_popular
+Amount_of_new_Anime_Download_new = configuration.Amount_of_new_Anime_Download_new
+scratch_popular = configuration.scratch_popular
+scratch_newest = configuration.scratch_newest
+namelist = configuration.namelist
+only_download_links = configuration.only_download_links
+onlygerman = configuration.onlygerman
+withgermanSubtitle = configuration.withgermanSubtitle
+Webhock = configuration.Webhock
+staffel = configuration.staffel
+episode = configuration.episode
+wait_time = configuration.wait_time
 Hallo  = True
-Set_Stop = True
-Stop_episode = 0
-Stop_Season = 0
-Amount_of_new_Anime_Download_popular = 10
-Amount_of_new_Anime_Download_new = 150
-scratch_popular = False
-scratch_newest = True
-namelist = ["hunter-x-hunter"]#,"dragonball","dragonball-z"]#hunter x hunter error
-only_download_links = False #if enable it will only donwload the name list
-onlygerman = True
-withgermanSubtitle = False
-Webhock = "https://discord.com/api/webhooks/1312418426010079283/W1fCaDubmH-VReHw9L2z0v_CCcHzdf67FAx7gR3QTtH8m05apPGD072412QuLWU8NFId"
-staffel = 1
-episode = 1
 finsihedepisodes = episode - 1
-wait_time = 60  #in seconds
 first_run = True
 url_list = ["dood.li","vidmoly.to"]
 
@@ -38,7 +40,8 @@ baseurl = "https://aniworld.to/anime/stream/{animename}/staffel-{staffel}/episod
 browser = Libary.webdriver.Chrome()
 
 def Discord_Message(message):
-    Libary.requests.post(Webhock, json={"content": message})
+    if DiscordUse:
+        Libary.requests.post(Webhock, json={"content": message})
 
 def check_right_language(flag_src):
     if onlygerman == True:
