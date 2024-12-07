@@ -1,4 +1,4 @@
-# Project Title
+# Aniworld Downloader
 
 Download Animes from Aniworld.to
 
