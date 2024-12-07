@@ -19,9 +19,14 @@ pip install requests
 
 A step by guide to install everything to get the Project running
 
+
+
 go to the offical webside : https://jdownloader.org/
-Create a Account
+Create an Account
 and download JDownloader 2
+
+
+
 
 When JDownloader is installed go into settings
 --picture of settings
