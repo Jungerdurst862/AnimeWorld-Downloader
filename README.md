@@ -20,17 +20,15 @@ pip install requests
 A step by guide to install everything to get the Project running
 
 go to the offical webside : https://jdownloader.org/
+Create a Account
 and download JDownloader 2
 
-```
-Give the example
-```
+When JDownloader is installed go into settings
+--picture of settings
+login in with your created account from the website and press connect
+--picture where the connect button is
 
-And repeat
 
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 
