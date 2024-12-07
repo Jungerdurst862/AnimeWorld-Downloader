@@ -47,8 +47,10 @@ firsst insert your JDownload information you just used in JDownloader
 After that configure Discord(you can disable discord if you dont want to use it)
 
 -insert the webhook from your channel
--and add your autherization (video how to get):https://www.youtube.com/watch?v=LnBnm_tZlyU
--and your channel id 
+
+-add your autherization (video how to get):https://www.youtube.com/watch?v=LnBnm_tZlyU
+
+-add your channel id 
 
 Now you setted everything up and are ready to start downloading your favourite Animes
 
