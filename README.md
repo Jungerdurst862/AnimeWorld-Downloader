@@ -21,7 +21,7 @@ A step by guide to install everything to get the Project running
 
 
 go to the offical webside : [https://jdownloader.org/](https://jdownloader.org/jdownloader2)
-and download JDownloader2
+and download JDownloader2 \n
 After that create an Account on : [https://my.jdownloader.org/re.html](https://my.jdownloader.org/login.html#register)
 
 
