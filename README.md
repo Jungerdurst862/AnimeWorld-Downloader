@@ -19,6 +19,7 @@ pip install requests
 
 A step by guide to install everything to get the Project running
 
+![image](https://github.com/user-attachments/assets/05ba8795-c08f-42eb-9668-02109d138143)
 
 
 go to the offical webside : https://jdownloader.org/
