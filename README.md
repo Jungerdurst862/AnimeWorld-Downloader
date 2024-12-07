@@ -28,7 +28,7 @@ After that create an Account on : [https://my.jdownloader.org/re.html](https://m
 
 When JDownloader is installed go into settings and MYJDownloader
 ![JDownloaderSettingsEnglisch](https://github.com/user-attachments/assets/567d873f-c054-48de-b387-872516a9097d)
-login in with your created account from the website
+ login in with your created account from the website
 ![DataEnglischSetting](https://github.com/user-attachments/assets/b81ca8f3-e928-4e79-92dc-bb587e76103c)
 and press connect
 ![Connect](https://github.com/user-attachments/assets/a8875025-c522-4bb6-a2a3-86ca8383aba8)
