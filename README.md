@@ -44,15 +44,14 @@ firsst insert your JDownload information you just used in JDownloader
 ![configurationJdScript](https://github.com/user-attachments/assets/d4734245-ebfa-48dc-b1ad-4a9212d341da)
 
 
-After that configure Discord
-insert a Webhook 
-and add your autherization
-and channel id 
+After that configure Discord(you can disable discord if you dont want to use it)
+-insert the webhook from your channel
+-and add your autherization (video how to get):https://www.youtube.com/watch?v=LnBnm_tZlyU
+-and your channel id 
 
 Now you setted everything up and are ready to start downloading your favourite Animes
 
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
 
