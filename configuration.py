@@ -29,7 +29,7 @@ password = ""#write your Jd Password
 
 
 #Discord Configuration----------------------------------------------------------------------------------------------------------------------------------
-Use_Discord = False #if enable it will send discord messages
+Use_Discord = True #if enable it will send discord messages
 Webhock = ""#Channel Webhook URL
 autherization = ""#your authorization for discord.com
 Channel_id = ""#channel id where you want to send the message
