@@ -55,6 +55,4 @@ After that configure Discord(you can disable discord if you dont want to use it)
 Now you setted everything up and are ready to start downloading your favourite Animes
 
 
-End with an example of getting some data out of the system or using it for a little demo
-
 
