@@ -32,7 +32,8 @@ When JDownloader is installed go into settings
 --picture of settings
 login in with your created account from the website and press connect
 --picture where the connect button is
-
+you finsihed setting up JDownloader
+now we move on the scripts
 
 
 End with an example of getting some data out of the system or using it for a little demo
